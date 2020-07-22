@@ -1,0 +1,25 @@
+.table{
+    width: 655px;
+    display: grid;
+    grid-template-columns: 100px 550px;
+    grid-template-rows: 50px auto;
+    grid-gap: 10px;
+    margin: 0 auto;
+}
+
+.cols{
+    justify-items: center;
+    align-items: end;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+.rows{
+    align-items: center;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+body{
+    margin: 0;
+}
+
